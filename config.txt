@@ -1,0 +1,12 @@
+# nodes minPerActive maxPerActive minSendDelay snapshotDelay(ms) maxNumber
+4 20 30 100 300 500
+
+0 dc05 30001 # nodeID hostName listen Port
+1 dc04 30002
+2 dc02 30003
+3 dc03 30004
+
+1 2  #neighbours of node 0
+2 3
+1
+0 1 2
